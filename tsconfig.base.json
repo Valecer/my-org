@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-org/feature-shop": ["libs/feature-shop/src/index.ts"]
+      "@my-org/feature-shop": ["libs/feature-shop/src/index.ts"],
+      "@my-org/ui-shop": ["libs/ui-shop/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
