@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   template:`
   <nav class="navbar navbar-expand-lg navbar-light bg-info">
     <div class="container">
-      <a routerLink="/" class="navbar-brand">{{logo}}</a>
+      <a class="navbar-brand">{{logo}}</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,6 +18,9 @@ import { Component, Input } from '@angular/core';
           <li class="nav-item">
             <!-- <a routerLink="/cart/" class="nav-link">Cart </a> -->
           </li>
+          <li class="nav-item">
+            <a class="nav-link">Cart {{count}}</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -27,4 +30,5 @@ import { Component, Input } from '@angular/core';
 })
 export class HeaderComponent {
   @Input() logo = '';
+  @Input() count = 0;
 }

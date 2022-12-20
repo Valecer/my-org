@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@my-org/feature-shop": ["libs/feature-shop/src/index.ts"],
-      "@my-org/ui-shop": ["libs/ui-shop/src/index.ts"]
+      "@my-org/ui-shop": ["libs/ui-shop/src/index.ts"],
+      "@my-org/utility-shop": ["libs/utility-shop/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

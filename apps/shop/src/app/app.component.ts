@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-org-root',
   template:`
-  <my-org-header logo="yrdy"></my-org-header>
-  <!-- <my-org-products></my-org-products> -->
+  <my-org-header logo="Test"></my-org-header>
+  <my-org-products></my-org-products>
   `,
   styleUrls: ['./app.component.css'],
 })

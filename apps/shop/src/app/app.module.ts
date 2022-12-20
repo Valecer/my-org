@@ -1,5 +1,5 @@
-import { UiShopModule } from './../../../../libs/ui-shop/src/lib/ui-shop.module';
-// import { FeatureShopModule } from './../../../../libs/feature-shop/src/lib/feature-shop.module';
+import { UiShopModule } from '@my-org/ui-shop';
+import { FeatureShopModule } from '@my-org/feature-shop';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, UiShopModule],
+  imports: [BrowserModule, UiShopModule, FeatureShopModule],
   providers: [],
   bootstrap: [AppComponent],
 })
